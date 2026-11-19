@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102f57">
+<title>M.SAAD GROUP | Official Digital Portal</title>
+<style>
+:root{--navy:#102f57;--blue:#1765bd;--sky:#eaf3ff;--ink:#1c2d43;--muted:#657891;--line:#dce6f2;--white:#fff;--bg:#f4f7fc}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:14px}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Arial,sans-serif}
+header{background:linear-gradient(125deg,#0b2343,#174e8e 65%,#2377ca);color:white;padding:18px 20px 38px}
+.top{max-width:1120px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.brand{font-weight:900;font-size:23px;letter-spacing:2px}.tag{font-size:10px;letter-spacing:1.6px;color:#d5e8ff}
+nav{display:flex;gap:8px;flex-wrap:wrap}nav a{color:#e8f2ff;text-decoration:none;font-size:12px;padding:8px 10px;border-radius:8px}nav a:hover{background:#ffffff20}
+.hero{max-width:1120px;margin:42px auto 0;display:grid;grid-template-columns:1.35fr .65fr;gap:28px;align-items:center}
+.hero h1{font-size:clamp(30px,5vw,49px);line-height:1.08;margin:0 0 14px}.hero p{max-width:620px;color:#dceaff}
+.pill{display:inline-block;background:#ffffff18;border:1px solid #ffffff38;padding:6px 11px;border-radius:30px;font-size:11px;letter-spacing:.6px}
+.hero-card{background:#ffffff12;border:1px solid #ffffff30;border-radius:18px;padding:20px;backdrop-filter:blur(8px)}
+.hero-card b{display:block;font-size:19px;margin-bottom:5px}.hero-card span{color:#dceaff;font-size:13px}
+main{max-width:1120px;margin:-17px auto 0;padding:0 16px 35px;position:relative}
+.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:21px;margin:16px 0;box-shadow:0 8px 26px #163b6410}
+h2{color:var(--navy);font-size:20px;margin:0 0 7px}h3{color:var(--navy);font-size:15px;margin:0 0 6px}
+.sub{font-size:13px;color:var(--muted);margin:0 0 17px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.tile{font:inherit;text-align:left;color:var(--ink);width:100%;margin:0;border:1px solid var(--line);border-radius:13px;padding:16px;background:linear-gradient(160deg,#fff,#f8fbff);cursor:pointer;transition:transform .15s,border-color .15s,box-shadow .15s}.tile:hover,.tile:focus-visible{transform:translateY(-2px);border-color:#83b1e5;box-shadow:0 7px 18px #174e8e18;outline:none}.tile h3{font-size:15px}.tile p{font-weight:400}
+.ico{font-size:24px;margin-bottom:8px}.tile p{font-size:12px;color:var(--muted);margin:5px 0 0}
+.columns{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:block;font-size:12px;font-weight:700;margin:12px 0 5px}
+input,select,textarea{width:100%;border:1px solid #d3deeb;border-radius:9px;padding:12px;font:14px Arial;color:var(--ink);background:#fff}
+input:focus,textarea:focus,select:focus{outline:2px solid #c8defa;border-color:#6b9bd1}
+button,.btn{border:0;border-radius:9px;background:var(--blue);color:white;padding:11px 15px;font-weight:700;font-size:13px;cursor:pointer;display:inline-block;text-decoration:none;margin:10px 6px 0 0}
+button.secondary,.btn.secondary{background:#eaf2fc;color:#17477e}button:disabled{opacity:.55;cursor:not--allowed}
+.status{padding:11px 12px;background:#f2f6fb;border-radius:9px;font-size:12px;color:#5e7086;margin-top:12px;overflow-wrap:anywhere}
+.status.good{background:#effaf2;color:#176b35}.status.bad{background:#fff1f0;color:#a32b22}
+.hidden{display:none!important}.tabs{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 17px}.tabs button{margin:0}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;padding:10px;border-bottom:1px solid #edf1f6;white-space:nowrap}th{background:#f6f9fd;color:#60738b}
+.tablewrap{overflow:auto}.membercard{max-width:430px;border-radius:15px;padding:19px;color:white;background:linear-gradient(125deg,#102f57,#1b67b1);margin-top:12px}
+.membercard small{color:#d8e9ff}.membercard strong{display:block;font-size:23px;margin:8px 0}
+footer{text-align:center;color:#7b8ba0;font-size:11px;padding:22px}
+.notice{font-size:12px;background:#fff8e8;color:#75551c;border:1px solid #f0dfb8;padding:13px;border-radius:10px;line-height:1.55}
+@media(max-width:760px){.top{align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr;margin-top:28px}.grid{grid-template-columns:repeat(2,1fr)}.columns{grid-template-columns:1fr}}
+@media(max-width:430px){header{padding:15px 15px 32px}.brand{font-size:20px}.panel{padding:16px}.grid{gap:8px}.tile{padding:12px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="top">
+  <div><div class="brand">M.SAAD GROUP</div><div class="tag">TECHNOLOGY · DIGITAL SERVICES · ONLINE SOLUTIONS</div></div>
+  <nav><a href="#services">Services</a><a href="#register">Registration</a><a href="#member">Member Login</a><a href="#verify">QR Verify</a><a href="#admin">Admin</a></nav>
+ </div>
+ <div class="hero">
+  <div><span class="pill">OFFICIAL DIGITAL MEMBER PORTAL</span><h1>One Group.<br>One Digital Platform.</h1>
+   <p>Membership, digital identity, receipts, certificates, notices and member support — together in one place.</p>
+   <a class="btn" href="#register">Join M.SAAD GROUP</a><a class="btn secondary" href="#member">Member Area</a>
+  </div>
+  <div class="hero-card"><b>Welcome to M.SAAD GROUP</b><span>A simple, secure and mobile-friendly digital experience for our members.</span><hr style="border:0;border-top:1px solid #ffffff35;margin:17px 0"><span>Member Services · Digital Records · Support</span></div>
+ </div>
+</header>
+<main>
+<section class="panel" id="services">
+ <h2>Our Digital Services</h2><p class="sub">Everything members need, accessible from one portal.</p>
+ <div class="grid">
+  <button type="button" class="tile" data-open="register"><div class="ico">📝</div><h3>Member Registration</h3><p>Open the online registration form.</p></button>
+  <button type="button" class="tile" data-open="member"><div class="ico">🪪</div><h3>Digital ID Card</h3><p>Member identity card and ID details.</p></button>
+  <button type="button" class="tile" data-open="verify"><div class="ico">🔎</div><h3>QR Verification</h3><p>Check whether an issued ID is valid.</p></button>
+  <button type="button" class="tile" data-open="member"><div class="ico">🧾</div><h3>Online Receipts</h3><p>Access receipts issued by the group.</p></button>
+  <button type="button" class="tile" data-open="member"><div class="ico">🎓</div><h3>Certificates</h3><p>View and print approved certificates.</p></button>
+  <button type="button" class="tile" data-open="member"><div class="ico">📢</div><h3>Notices</h3><p>Read official group announcements.</p></button>
+  <button type="button" class="tile" data-open="member"><div class="ico">📍</div><h3>Application Tracking</h3><p>Follow the progress of requests.</p></button>
+  <button type="button" class="tile" data-open="member"><div class="ico">🛟</div><h3>Help & Complaints</h3><p>Send a support request to the team.</p></button>
+  <button type="button" class="tile" data-open="admin"><div class="ico">⚙️</div><h3>Admin Control Room</h3><p>Authorized administration tools.</p></button>
+ </div>
+</section>
+<section class="panel hidden" id="register">
+ <h2>Online Member Registration</h2><p class="sub">Enter your details carefully. Your Member ID will be generated after the database accepts your registration.</p>
+ <form id="regForm">
+  <div class="columns"><div><label for="fullName">Full Name</label><input id="fullName" maxlength="80" required placeholder="Enter full name"></div>
+  <div><label for="mobile">Mobile Number</label><input id="mobile" type="tel" inputmode="numeric" maxlength="10" pattern="[0-9]{10}" required placeholder="10-digit mobile number"></div></div>
+  <label><input id="consent" type="checkbox" required style="width:auto;margin-right:7px">I agree to share these details for M.SAAD GROUP registration.</label>
+  <button id="regSubmit" type="submit">Submit Registration</button>
+ </form><div id="regStatus" class="status">Registration connects to the existing Firebase registrations collection.</div>
+ <div id="regResult" class="status good hidden">Registration successful. Your Member ID: <b id="newMemberId"></b>. Please save it.</div>
+</section>
+<section class="panel hidden" id="member">
+ <h2>Member Dashboard Login</h2><p class="sub">Login using the mobile number and Member ID registered with M.SAAD GROUP.</p>
+ <div class="columns"><div><label for="memberMobile">Registered Mobile Number</label><input id="memberMobile" type="tel" inputmode="numeric" maxlength="10" autocomplete="tel" placeholder="Enter registered 10-digit mobile number"></div>
+ <div><label for="memberIdLogin">Member ID</label><input id="memberIdLogin" maxlength="40" autocomplete="off" placeholder="Enter your Member ID"></div></div>
+ <button id="memberLoginBtn" type="button">Continue</button>
+ <div class="status" id="memberStatus">Enter both registered details. Private member access will open only after secure verification is connected.</div>
+ <div id="memberArea" class="hidden">
+  <div class="tabs"><button class="secondary" data-member-tab="overview">Overview</button><button class="secondary" data-member-tab="id">My ID</button><button class="secondary" data-member-tab="docs">Receipts & Certificates</button><button class="secondary" data-member-tab="tracking">Tracking</button><button class="secondary" data-member-tab="notices">Notices</button><button class="secondary" data-member-tab="help">Help & Complaint</button></div>
+  <div id="m-overview"><h3>Member Overview</h3><div class="status">Your membership summary will appear after secure member authentication is connected.</div></div>
+  <div id="m-id" class="hidden"><h3>My Digital ID</h3><div class="membercard"><small>M.SAAD GROUP · DIGITAL MEMBER ID</small><strong id="dashName">Member Name</strong><div>MEMBER ID: <b id="dashId">—</b></div><small>Technology · Digital Services</small></div></div>
+  <div id="m-docs" class="hidden"><h3>Receipts & Certificates</h3><div class="status">Issued documents will appear after member-specific storage is configured.</div></div>
+  <div id="m-tracking" class="hidden"><h3>Application Tracking</h3><div class="status">Application updates will appear after the tracking database is connected.</div></div>
+  <div id="m-notices" class="hidden"><h3>Notices & Notifications</h3><div class="status">Official notices will appear after the notice service is connected.</div></div>
+  <div id="m-help" class="hidden"><h3>Help & Complaint Portal</h3><label for="helpType">Request Type</label><select id="helpType"><option>General Help</option><option>Complaint</option><option>ID Card Issue</option><option>Receipt / Certificate</option></select><label for="helpText">Message</label><textarea id="helpText" rows="3" maxlength="1500" placeholder="Write your request"></textarea><button id="helpSubmit">Submit Request</button><div id="helpStatus" class="status">Support database is not connected yet.</div></div>
+ </div>
+</section>
+<section class="panel hidden" id="verify">
+ <h2>QR / Member ID Verification</h2><p class="sub">Public verification should show limited status information, not private member details.</p>
+ <label for="verifyId">Member ID</label><input id="verifyId" placeholder="Enter Member ID printed on the card">
+ <button id="verifyBtn">Verify Member ID</button><div id="verifyStatus" class="status">Secure public verification endpoint is not connected yet. An ID will not be claimed valid without a database check.</div>
+</section>
+<section class="panel hidden" id="admin">
+ <h2>Admin Control Room</h2><p class="sub">Private access for the authorized administrator only.</p>
+ <div id="adminLoginBox">
+  <label for="adminEmail">Admin Email</label><input id="adminEmail" type="email" value="mohdsaadgroup@gmail.com" readonly>
+  <label for="adminPassword">Admin Password</label><input id="adminPassword" type="password" autocomplete="current-password" placeholder="Enter Firebase admin password">
+  <button id="adminLoginBtn">Admin Login</button><div id="adminStatus" class="status">Uses the existing Firebase Authentication admin account.</div>
+ </div>
+ <div id="adminDashboard" class="hidden">
+  <div class="columns"><div><h3>Registered Members</h3><p class="sub">Records from the existing registrations collection.</p></div><div style="text-align:right"><button class="secondary" id="refreshMembers">Refresh</button><button class="secondary" id="exportMembers">Export CSV</button><button id="adminLogout">Logout</button></div></div>
+  <label for="searchMembers">Search by name, mobile or Member ID</label><input id="searchMembers" type="search" placeholder="Search members">
+  <div id="memberCount" class="status">Waiting for admin sign-in.</div>
+  <div class="tablewrap"><table><thead><tr><th>Member ID</th><th>Name</th><th>Mobile</th><th>Registered</th></tr></thead><tbody id="memberRows"><tr><td colspan="4">No data loaded.</td></tr></tbody></table></div>
+  <div class="notice" style="margin-top:15px">The existing Firebase admin login and member list can work when Firebase Authentication and Firestore read rules are correctly configured. Other services need their own secure admin actions and database rules.</div>
+ </div>
+</section>
+<div class="notice">Security note: Mobile Number + Member ID is the selected login design, but these two public fields alone are not secure authentication. Private documents remain locked until secure verification is configured. Do not publish admin passwords or private member data in this HTML file.</div>
+</main>
+<footer>© M.SAAD GROUP · Official Digital Services Portal</footer>
+<script type="module">
+import {initializeApp} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
+import {getAuth,signInWithEmailAndPassword,onAuthStateChanged,signOut} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
+import {getFirestore,collection,addDoc,getDocs,serverTimestamp} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+
+const firebaseConfig={
+ apiKey:"AIzaSyBpkr-IRvftyZcHkj-GaMA9lhZCrJXPQ0Y",
+ authDomain:"msaad-registration.firebaseapp.com",
+ projectId:"msaad-registration",
+ storageBucket:"msaad-registration.firebasestorage.app",
+ messagingSenderId:"893799784527",
+ appId:"1:893799784527:web:fbcce4eee4ef34400f0a3a",
+ measurementId:"G-DVXBBPV5YZ"
+};
+const ADMIN_EMAIL="mohdsaadgroup@gmail.com";
+const $=id=>document.getElementById(id);
+function openPortalPanel(id){
+ const panel=$(id);if(!panel)return;
+ ["register","member","verify","admin"].forEach(x=>$(x).classList.toggle("hidden",x!==id));
+ panel.scrollIntoView({behavior:"smooth",block:"start"});
+}
+document.querySelectorAll("[data-open]").forEach(tile=>tile.addEventListener("click",()=>openPortalPanel(tile.dataset.open)));
+document.querySelectorAll('a[href="#register"],a[href="#member"],a[href="#verify"],a[href="#admin"]').forEach(link=>link.addEventListener("click",e=>{e.preventDefault();openPortalPanel(link.getAttribute("href").slice(1));}));
+
+let app,auth,db,memberRows=[];
+function status(id,msg,kind=""){const el=$(id);el.textContent=msg;el.className="status"+(kind?" "+kind:"");}
+try{app=initializeApp(firebaseConfig);auth=getAuth(app);db=getFirestore(app);}
+catch(e){console.error(e);status("regStatus","Firebase could not initialize. Check the project configuration.","bad");}
+
+$("regForm").addEventListener("submit",async e=>{
+ e.preventDefault();if(!db){status("regStatus","Firebase is not connected.","bad");return;}
+ const fullName=$("fullName").value.trim(),mobile=$("mobile").value.trim();
+ if(!fullName||!/^[0-9]{10}$/.test(mobile)||!$("consent").checked){status("regStatus","Enter a name, valid 10-digit mobile number and accept consent.","bad");return;}
+ const prefix=fullName.replace(/[^a-z]/gi,"").toUpperCase().slice(0,4).padEnd(4,"X");
+ const suffix=Math.random().toString(36).slice(2,6).toUpperCase();
+ const memberId=`${prefix}-${mobile.slice(-4)}-${suffix}`;
+ $("regSubmit").disabled=true;status("regStatus","Submitting registration…");
+ try{
+  await addDoc(collection(db,"registrations"),{fullName,mobile,memberId,createdAt:serverTimestamp()});
+  $("newMemberId").textContent=memberId;$("regResult").classList.remove("hidden");
+  status("regStatus","Registration saved successfully.","good");$("regForm").reset();
+ }catch(err){console.error(err);status("regStatus","Could not save registration. Check Firestore rules and try again.","bad");}
+ finally{$("regSubmit").disabled=false;}
+});
+
+$("adminLoginBtn").addEventListener("click",async()=>{
+ if(!auth)return;const password=$("adminPassword").value;
+ if(!password){status("adminStatus","Enter the admin password.","bad");return;}
+ $("adminLoginBtn").disabled=true;status("adminStatus","Signing in…");
+ try{await signInWithEmailAndPassword(auth,ADMIN_EMAIL,password);}
+ catch(e){console.error(e);status("adminStatus","Admin login failed. Check the Firebase Authentication account and password.","bad");}
+ finally{$("adminLoginBtn").disabled=false;}
+});
+onAuthStateChanged(auth,async user=>{
+ const isAdmin=!!user&&user.email===ADMIN_EMAIL;
+ $("adminDashboard").classList.toggle("hidden",!isAdmin);
+ $("adminLoginBox").classList.toggle("hidden",isAdmin);
+ if(isAdmin)await loadMembers();else if(user)await signOut(auth);
+});
+async function loadMembers(){
+ if(!db)return;status("memberCount","Loading member records…");
+ try{
+  const snap=await getDocs(collection(db,"registrations"));
+  memberRows=snap.docs.map(d=>{const x=d.data();return{id:x.memberId||d.id,name:x.fullName||"",mobile:x.mobile||"",date:x.createdAt?.toDate?x.createdAt.toDate().toLocaleString():"—"};});
+  memberRows.sort((a,b)=>a.name.localeCompare(b.name));renderMembers();
+  status("memberCount",`Loaded ${memberRows.length} registration(s).`,"good");
+ }catch(e){console.error(e);status("memberCount","Could not read registrations. Check Firestore admin read rules.","bad");}
+}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function renderMembers(){
+ const q=$("searchMembers").value.toLowerCase();
+ const found=memberRows.filter(r=>(r.id+" "+r.name+" "+r.mobile).toLowerCase().includes(q));
+ $("memberRows").innerHTML=found.length?found.map(r=>`<tr><td>${esc(r.id)}</td><td>${esc(r.name)}</td><td>${esc(r.mobile)}</td><td>${esc(r.date)}</td></tr>`).join(""):'<tr><td colspan="4">No matching records.</td></tr>';
+}
+$("searchMembers").addEventListener("input",renderMembers);
+$("refreshMembers").addEventListener("click",loadMembers);
+$("adminLogout").addEventListener("click",()=>signOut(auth));
+$("exportMembers").addEventListener("click",()=>{
+ const data=[["Member ID","Name","Mobile","Registered"],...memberRows.map(r=>[r.id,r.name,r.mobile,r.date])];
+ const csv=data.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\n");
+ const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv"}));a.download="msaad-group-members.csv";a.click();URL.revokeObjectURL(a.href);
+});
+$("verifyBtn").addEventListener("click",()=>status("verifyStatus",$("verifyId").value.trim()?"Verification is not live yet. Connect a protected lookup before relying on this result.":"Enter a Member ID first.","bad"));
+$("memberLoginBtn").addEventListener("click",()=>{
+ const mobile=$("memberMobile").value.trim(),memberId=$("memberIdLogin").value.trim();
+ if(!/^[0-9]{10}$/.test(mobile)||!memberId){status("memberStatus","Enter a valid 10-digit mobile number and your Member ID.","bad");return;}
+ status("memberStatus","Secure member matching is not connected yet. No private dashboard has been opened and these details have not been saved.","bad");
+});
+$("helpSubmit").addEventListener("click",()=>status("helpStatus",$("helpText").value.trim()?"Support submission is not connected yet. Your request has not been sent.":"Please write a message first.","bad"));
+document.querySelectorAll("[data-member-tab]").forEach(b=>b.addEventListener("click",()=>{
+ const t=b.dataset.memberTab;["overview","id","docs","tracking","notices","help"].forEach(x=>$("m-"+x).classList.toggle("hidden",x!==t));
+}));
+</script>
+</body>
+</html>
